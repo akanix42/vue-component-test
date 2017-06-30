@@ -1,7 +1,8 @@
-<style scoped>
-.app {
+<style scoped module lang="stylus">
+
+div.app
   color: blue;
-}
+
 </style>
 
 <template>
