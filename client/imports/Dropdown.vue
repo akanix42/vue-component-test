@@ -8,7 +8,6 @@
 <div class="dropdown">
   Dropdown from npm package vue-my-dropdown:
   <Dropdown :visible="visible"
-            :animation="animation"
             :position="['right', 'bottom', 'right', 'top']">
     <span @click='visible = !visible'>Click Me</span>
     <div slot="dropdown">
